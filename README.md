@@ -5,10 +5,10 @@ Let's Learn Spanish
 ## Live App
 https://spaced-repetition-client-james-ver1.vercel.app/
 
-*Demo username 
+*Demo username   
 admin*
 
-*Demo password 
+*Demo password   
 pass*
 
 ## Client Repo
