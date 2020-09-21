@@ -1,9 +1,12 @@
 # Spaced Repetition Capstone CLIENT
+## App Name
+Let's Learn Spanish
 
 ## Live App
 https://spaced-repetition-client-james-ver1.vercel.app/
 
 *Demo username: admin*
+
 *Demo password: pass*
 
 ## Client Repo
