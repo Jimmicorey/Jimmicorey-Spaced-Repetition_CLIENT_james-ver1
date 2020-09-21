@@ -44,7 +44,7 @@ class Header extends React.Component {
       <header className='header'>
         <h1>
           <Link to='/'>
-            Spaced repetition
+            Let's Learn Spanish
           </Link>
         </h1>
         {TokenService.hasAuthToken()
