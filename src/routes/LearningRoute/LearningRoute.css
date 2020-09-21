@@ -1,0 +1,107 @@
+/* GUESS VIEW */
+.learning-header {
+    display: flex;
+    flex-direction: column;
+
+    margin: 40px 0 10px 0;
+    padding: 3px 5px;
+    text-align: center;
+    font-weight: 800;
+
+    color: whitesmoke;
+    background-color: red;
+
+    border-top: 5px solid yellow;
+    border-bottom: 10px solid yellow;
+}
+.translateItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0 20px 0;
+
+    background-color:rgba(255, 255, 0, 0.619);
+    border-top: 3px solid red;
+    border-bottom: 6px solid red;
+}
+.learning-header>.total-score {
+    margin: 15px 0 -10px 0;
+}
+
+.learn-word {
+    font-size: 2em;
+    font-weight: 900;
+    margin: 10px 0 0 -15px;
+}
+.translateItem>.scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    color: rgb(96, 4, 4);
+    font-size: 1.25em;
+}
+.translateItem>.scores>.incorrect {
+    margin: 0 60px 0 0;
+}
+
+.learning-guess-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+.learning-guess-form>.label {
+    margin: -10px 0 5px 0;
+}
+.learning-guess-form>.input {
+    margin: 0 0 10px 0;
+}
+
+
+/* FEEDBACK RESPONSE VIEW */
+.feedbackItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 0 30px 0;
+
+    background-color:rgba(255, 255, 0, 0.619);
+    border-top: 3px solid red;
+    border-bottom: 6px solid red;
+}
+.feedbackResponse {
+    font-size: 2em;
+    font-weight: 900;
+    margin: 15px 5px -5px 5px;
+}
+.feedback-total-score {
+    margin: 20px 0 10px 0;
+    font-size: 1.45em;
+}
+.feedbackItem>.scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    color: rgb(96, 4, 4);
+    font-size: 1.15em;
+    margin: 0 0 -20px 0;
+}
+.feedbackItem>.scores>.incorrect {
+    margin: 0 60px 0 0;
+}
+.feedback {
+    font-size: 15px;
+    padding: 0 5px;
+}
+.bold-answer, .bold-guess {
+    font-weight: 900;
+    font-size: 1.25em;
+}
+.bold-guess {
+    color:  red;
+}

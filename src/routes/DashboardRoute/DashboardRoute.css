@@ -1,0 +1,67 @@
+.dashboard-header {
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px 0 10px 0;
+    padding: 3px 5px;
+    text-align: center;
+    font-weight: 800;
+
+    color: whitesmoke;
+    background-color: red;
+
+    border-top: 5px solid yellow;
+    border-bottom: 10px solid yellow;
+}
+.total-score {
+    margin: 10px 0 -5px;
+    font-size: 1.15em;
+}
+.language {
+    margin: 15px 0;
+    font-size: 1.75em;
+}
+
+
+/* DASHBOARD */
+.listItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: 20px 0;
+
+    background-color:rgba(255, 255, 0, 0.619);
+    border-top: 3px solid red;
+    border-bottom: 6px solid red;
+}
+.word{
+    font-size: 1.15em;
+    font-weight: 600;
+}
+.listItem>.scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    color: rgb(96, 4, 4);
+    font-size: 1.25em;
+}
+.listItem>.scores>.incorrect {
+    margin: 0 15px 0 -15px;
+}
+
+
+
+.Button {
+    width: 45%;
+    font-size: 1.35em;
+    padding: 10px;
+    margin: 15px 0;
+    align-self: center;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(72, 255, 66);
+    color: rgba(163, 0, 0, 0.808);
+    font-weight: 800;
+}
