@@ -12,10 +12,10 @@ admin*
 pass*
 
 ## Client Repo
-https://github.com/Jimmicorey/Spaced-Repetition_CLIENT_james-ver3
+https://github.com/Jimmicorey/Spaced-Repetition_CLIENT_james-ver1
 
 ## API Server Repo
-https://github.com/Jimmicorey/Spaced-Repetition_SERVER_james-ver3
+https://github.com/Jimmicorey/Spaced-Repetition_SERVER_james-ver1
 
 ## Contributors
 Christopher-Xavier, James
